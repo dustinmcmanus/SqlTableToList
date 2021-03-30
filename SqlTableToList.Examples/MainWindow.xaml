@@ -1,0 +1,31 @@
+﻿<Window x:Class="SqlTableToList.Examples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SqlTableToList.Examples"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid>
+        <Label x:Name="lblDatabaseProvider" Content="Database Provider" HorizontalAlignment="Left" Margin="25,49,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboDatabaseProvider" HorizontalAlignment="Left" Margin="200,49,0,0" VerticalAlignment="Top" Width="200" SelectedItem="{Binding Path=DatabaseProvider, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="DisplayName"/>
+
+        <Label x:Name="lblDatabaseHostName" Content="Database Host Name" HorizontalAlignment="Left" Margin="25,89,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDatabaseHostName" HorizontalAlignment="Left" Height="23" Margin="200,89,0,0" TextWrapping="Wrap" Text="{Binding Path=DatabaseHostName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="200"/>
+
+        <Label x:Name="lblDatabasePort" Content="Database Port" HorizontalAlignment="Left" Margin="25,129,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDatabasePort" HorizontalAlignment="Left" Height="23" Margin="200,129,0,0" TextWrapping="Wrap" Text="{Binding Path=DatabasePort, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="200"/>
+
+        <Label x:Name="lblDatabaseName" Content="Database Name" HorizontalAlignment="Left" Margin="25,169,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDatabaseName" HorizontalAlignment="Left" Height="23" Margin="200,169,0,0" TextWrapping="Wrap" Text="{Binding Path=DatabaseName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="200"/>
+
+        <Label x:Name="lblDatabaseUserName" Content="Database User Name" HorizontalAlignment="Left" Margin="25,209,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDatabaseUserName" HorizontalAlignment="Left" Height="23" Margin="200,209,0,0" TextWrapping="Wrap" Text="{Binding Path=DatabaseUserName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="200"/>
+
+        <Label x:Name="lblDatabaseUserPassword" Content="Database User Password" HorizontalAlignment="Left" Margin="25,249,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="pwdDatabaseUserPassword" HorizontalAlignment="Left" Height="23" Margin="200,249,0,0" VerticalAlignment="Top" Width="200"/>
+
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="185,340,0,0" VerticalAlignment="Top" Width="80" Click="btnSave_Click"/>
+
+    </Grid>
+</Window>

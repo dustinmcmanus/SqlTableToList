@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlTableToList", "SqlTableToList\SqlTableToList.csproj", "{0BBE95F4-3D9C-4065-B720-7C9AE94AE079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlTableToList.Examples", "SqlTableToList.Examples\SqlTableToList.Examples.csproj", "{A3E137A5-993C-4EA2-A2AC-35D99DF62D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BBE95F4-3D9C-4065-B720-7C9AE94AE079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBE95F4-3D9C-4065-B720-7C9AE94AE079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBE95F4-3D9C-4065-B720-7C9AE94AE079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBE95F4-3D9C-4065-B720-7C9AE94AE079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E137A5-993C-4EA2-A2AC-35D99DF62D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E137A5-993C-4EA2-A2AC-35D99DF62D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E137A5-993C-4EA2-A2AC-35D99DF62D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E137A5-993C-4EA2-A2AC-35D99DF62D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14BF2BE5-3C8F-4765-A459-061CBDBF2D71}
+	EndGlobalSection
+EndGlobal
